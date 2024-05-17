@@ -1,5 +1,14 @@
 spring:
   aplication:
     name: ms-client
+     datasource:
+    url: jdbc:postgresql://localhost:5432/test-db  # URL de la base de datos
+    username: postgres                             # Usuario de la base de datos
+    password: Metalero2607                         # Contraseña de la base de datos
+    driver-class-name: org.postgresql.Driver       # Clase del driver de PostgreSQL
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 server:
   port: 8080
