@@ -4,5 +4,5 @@ spring:
       connection-timeout: 20000
       maximum-pool-size: 5
     password: QaTesting2024$
-    url: jdbc:postgresql://localhost:5433/companies-qa
+    url: jdbc:postgresql://localhost:5434/companies-qa
     username: jcharlie-qa
